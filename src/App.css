@@ -1,0 +1,111 @@
+*{
+  margin:0
+}
+.App {
+ background-color: #B49AE7;
+height: 100vh
+}
+.App > :first-child, .App> :first-child > div{
+  display:flex;
+  justify-content: flex-end;
+  align-items: center
+}
+.App > :first-child{
+  justify-content: space-between;
+  width:90%;
+  margin:auto;
+}
+.App> :first-child > div{
+  width:30%
+}
+.App > :first-child>div>button{
+  margin:1% 8%;
+ 
+}
+.editArea{
+ display:flex;
+ width: 80%;
+ margin:auto;
+ justify-content:space-between;
+}
+
+button {
+  font-size: 16px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.text-container {
+  position: relative;
+  width:55%;
+  height:65vh;
+  background-color: #E4DAF8;
+  padding:2%;
+
+  border-radius: 40px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.text-container > input{
+  background-color:transparent;
+  border:none;
+  cursor:grab;
+  text-align:center;
+  max-width:100%;
+  Max-height:100%;
+}
+.text-container > input:active{
+  cursor:grabbing
+}
+.text-container +div{
+  width:max-content;
+  margin:8%;
+  display:flex;
+  flex-direction:column;
+  justify-content:space-between;
+  padding:3%;
+  border-radius:40px;
+  background-color: #8C57F3;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.controls{
+  padding:10%;
+  border-radius:20px;
+  background-color:#C499F3;
+  font-size:1.2rem;
+  font-weight:800;
+  color:#450CB0;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+.size{
+  width:29%
+}
+.controls > div{
+ margin-bottom:10%;
+ 
+}
+
+button{
+  border-radius: 20px;
+  border:none;
+  font-size:1.2rem;
+  padding:10px 40px;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  background-color:#7232EC;
+  color:#D2C3EF
+}
+img {
+  width:3rem;
+  height:3rem;
+  
+}
+a{
+  margin:10%
+}
+footer{
+  position:fixed;
+  bottom:0;
+  width:100%;
+  text-align:center;
+  color:#2F0480
+}
+
